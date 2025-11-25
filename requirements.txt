@@ -4,7 +4,7 @@ aiosignal==1.4.0
 appnope==0.1.4
 asttokens==3.0.0
 attrs==25.3.0
-# audioop-lts==0.2.1
+## audioop-lts==0.2.1
 certifi==2025.6.15
 charset-normalizer==3.4.4
 comm==0.2.2
