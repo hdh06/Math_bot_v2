@@ -6,4 +6,6 @@ GUILDS_ID = [
     discord.Object(id=1008728257253867621)
 ]
 
-TEST_GUILDS_ID = discord.Object(id=1066207532374294558)
+TEST_GUILDS_ID = [
+    discord.Object(id=1066207532374294558)
+]

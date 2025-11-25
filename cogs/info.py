@@ -12,7 +12,8 @@ class Info(commands.Cog):
     
     commands_list = [
         r"`\info` - Information about the bot",
-        r"`\roll` - Roll dices"
+        r"`\roll` - Roll dices", 
+        r"`\create` - Create a custom command"
     ]
     
     @app_commands.command(name="info", description="Information about the bot")
