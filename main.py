@@ -20,6 +20,17 @@ class Client(commands.Bot):
             
         except Exception as e:
             print(f'Error syncing commands: {e}')
+            
+    async def on_message(self, message): 
+        # Avoid recursion
+        if (message.author.bot): 
+            return
+        
+        if client.user in message.mentions:  
+            await message.channel.send("Shut up, I am not dumbass @Blue Whale")
+            
+        
+    
     
     # async def on_message(self, message):
     #     if message.author == self.user:
