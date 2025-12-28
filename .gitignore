@@ -1,4 +1,9 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-.env
 .gitignore
-venv/*
+.env
+bin/*
+lib/*
+lib64
+pyvenv.cfg
+share/*
+
